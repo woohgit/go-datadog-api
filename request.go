@@ -14,6 +14,7 @@ import (
 	"fmt"
 	"io"
 	"io/ioutil"
+	"net"
 	"net/http"
 	"net/url"
 	"strings"
@@ -85,6 +86,12 @@ func (client *Client) redactError(err error) error {
 	if err == nil {
 		return nil
 	}
+
+	// they are net.OpError
+	if nerr, ok := err.(net.Error); ok {
+		fmt.Errorf("NetErr %s", nerr)
+	}
+
 	errString := err.Error()
 
 	if len(client.apiKey) > 0 {
