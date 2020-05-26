@@ -92,6 +92,7 @@ func (client *Client) redactError(err error) error {
 		fmt.Errorf("NetErr %s", nerr)
 	}
 
+	print("Hello bello")
 	errString := err.Error()
 
 	if len(client.apiKey) > 0 {
