@@ -2,7 +2,7 @@
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 [![Build
 status](https://travis-ci.org/zorkian/go-datadog-api.svg)](https://travis-ci.org/zorkian/go-datadog-api)
-[![Go Report Card](https://goreportcard.com/badge/github.com/zorkian/go-datadog-api)](https://goreportcard.com/report/github.com/zorkian/go-datadog-api)
+[![Go Report Card](https://goreportcard.com/badge/github.com/woohgit/go-datadog-api)](https://goreportcard.com/report/github.com/woohgit/go-datadog-api)
 
 # Datadog API in Go
 
@@ -18,7 +18,7 @@ The source API documentation is here: <http://docs.datadoghq.com/api/>
 ## Installation
 To use the default branch, include it in your code like:
 ```go
-    import "github.com/zorkian/go-datadog-api"
+    import "github.com/woohgit/go-datadog-api"
 ```
 
 Or, if you need to control which version to use, import using [gopkg.in](http://labix.org/gopkg.in). Like so:
@@ -90,7 +90,7 @@ There are certainly some, but presently no known major bugs. If you do
 find something that doesn't work as expected, please file an issue on
 Github:
 
-<https://github.com/zorkian/go-datadog-api/issues>
+<https://github.com/woohgit/go-datadog-api/issues>
 
 Thanks in advance! And, as always, patches welcome!
 

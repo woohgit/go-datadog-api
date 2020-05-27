@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/zorkian/go-datadog-api"
+	"github.com/woohgit/go-datadog-api"
 )
 
 func TestLogsPipelineCrud(t *testing.T) {

@@ -3,7 +3,7 @@ package integration
 import (
 	"testing"
 
-	dd "github.com/zorkian/go-datadog-api"
+	dd "github.com/woohgit/go-datadog-api"
 )
 
 func TestSeriesSubmit(t *testing.T) {

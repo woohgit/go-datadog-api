@@ -1,7 +1,7 @@
 package integration
 
 import (
-	"github.com/zorkian/go-datadog-api"
+	"github.com/woohgit/go-datadog-api"
 	"log"
 	"os"
 	"testing"

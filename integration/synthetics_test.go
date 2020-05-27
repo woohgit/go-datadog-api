@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	datadog "github.com/zorkian/go-datadog-api"
+	datadog "github.com/woohgit/go-datadog-api"
 )
 
 func TestSyntheticsCreateAndDelete(t *testing.T) {

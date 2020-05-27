@@ -13,7 +13,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	dd "github.com/zorkian/go-datadog-api"
+	dd "github.com/woohgit/go-datadog-api"
 )
 
 func TestAPPKeySerialization(t *testing.T) {

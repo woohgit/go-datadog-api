@@ -10,7 +10,7 @@ package integration
 import (
 	"testing"
 
-	"github.com/zorkian/go-datadog-api"
+	"github.com/woohgit/go-datadog-api"
 )
 
 func TestAPIKeyCreateGetAndDelete(t *testing.T) {

@@ -4,7 +4,7 @@ import (
 	"log"
 	"testing"
 
-	"github.com/zorkian/go-datadog-api"
+	"github.com/woohgit/go-datadog-api"
 )
 
 func TestDashboardListsGet(t *testing.T) {

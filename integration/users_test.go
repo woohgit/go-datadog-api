@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/zorkian/go-datadog-api"
+	"github.com/woohgit/go-datadog-api"
 )
 
 func TestUserCreateAndDelete(t *testing.T) {

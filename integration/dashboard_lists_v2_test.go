@@ -3,7 +3,7 @@ package integration
 import (
 	"testing"
 
-	datadog "github.com/zorkian/go-datadog-api"
+	datadog "github.com/woohgit/go-datadog-api"
 )
 
 func TestDashboardListItemsV2GetAndUpdate(t *testing.T) {

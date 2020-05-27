@@ -3,7 +3,7 @@ package datadog_test
 import (
 	"testing"
 
-	"github.com/zorkian/go-datadog-api"
+	"github.com/woohgit/go-datadog-api"
 )
 
 func TestCheckStatus(T *testing.T) {

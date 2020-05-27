@@ -6,7 +6,7 @@ import (
 	"encoding/json"
 
 	"github.com/stretchr/testify/assert"
-	dd "github.com/zorkian/go-datadog-api"
+	dd "github.com/woohgit/go-datadog-api"
 )
 
 func TestMonitorSerialization(t *testing.T) {
